@@ -1,0 +1,64 @@
+body{
+    background-color: lavenderblush;
+    align-items: center;
+    display: block; 
+}
+#tableStyle{
+    border:1px solid black;
+    border-collapse: collapse;
+    font: 1em sans-serif;
+    color: black;
+    width: 100%;
+}
+td{
+    border:1px solid black;
+    /* width: 100%; */
+}
+th{
+    border:1px solid black;
+    /* width: 100%; */
+    background-color: darkgrey;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+td:nth-child(n-2){
+    text-align: left;
+}
+td:nth-child(n+3){
+    text-align: right;
+}
+.failed-grade {
+    color: white;
+    background-color: red;
+}
+.unsubmitted {
+    background-color: blue;
+}
+.styled-button {
+    background-color:  blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.styled-button:hover {
+    background-color: green;
+}
+/* .highlighted-row {
+    background-color: red;
+} */
+.highlighted-column {
+    background-color: yellow;
+}
